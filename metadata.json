@@ -1,0 +1,7 @@
+{
+  "name": "Copy of BOB",
+  "description": "A progressive web application for diagnosing and resolving maintenance issues in an apartment. Users can scan a QR code to access the app, answer a few guided questions, and receive an AI-powered solution or be connected with a professional technician.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

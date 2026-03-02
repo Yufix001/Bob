@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connected Maintenance Assistant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Simple transition for page slides */
+      .page-enter {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      .page-enter-active {
+        opacity: 1;
+        transform: translateY(0);
+        transition: opacity 300ms, transform 300ms;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "path": "https://aistudiocdn.com/path@^0.12.7",
+    "vite": "https://aistudiocdn.com/vite@^7.2.2",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1",
+    "url": "https://aistudiocdn.com/url@^0.11.4",
+    "firebase/": "https://aistudiocdn.com/firebase@^12.6.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-slate-100">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
